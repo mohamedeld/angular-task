@@ -1,0 +1,301 @@
+.table-content {
+  font-family: "Noto Sans Arabic", sans-serif !important;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media (max-width: 400px) {
+  .table-header {
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .table-header .search {
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+.table-header .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.table-header .search h3 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+.search-input__icon {
+  border: 1px solid #fff;
+  position: relative;
+  padding: 10px 0px;
+  width: 277px;
+  height: 36px;
+  background-color: #fff;
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  border-radius: 4px;
+}
+
+.search input {
+  padding-right: 2.5rem;
+  border: none;
+  outline: none;
+  background: none;
+  width: calc(100% - 2.5rem);
+}
+.search-input__icon i {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000; /* Adjust icon color */
+}
+::ng-deep .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background-color: #8a74f9;
+}
+
+.switch-container {
+  width: 44px;
+  height: 25px;
+}
+::ng-deep .p-inputswitch,
+::ng-deep .p-inputswitch-slider {
+  width: 100%;
+  height: 100%;
+}
+::ng-deep .p-inputswitch-slider::before {
+  width: 15px;
+  height: 15px;
+  margin-top: -7px;
+}
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.active {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9c9d9f;
+}
+.add-ticket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.add-ticket__btn {
+  width: 100px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #8a74f9;
+  color: #fff;
+  padding: 13px 10px;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.user h5 {
+  font-size: 11.62px;
+  font-weight: 500;
+  line-height: 19.92px;
+}
+.user p {
+  font-size: 9.96px;
+  color: #92a1ad;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.sort-icon {
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border: 0.75px solid #fff;
+  opacity: 80%;
+  border-radius: 6px;
+  position: relative;
+  cursor: pointer;
+}
+.sort-icon svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+td,
+th {
+  vertical-align: middle;
+  padding: 10px;
+  color: #000;
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Noto Sans Arabic", sans-serif !important;
+}
+th {
+  color: #abaab1;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 200px;
+}
+
+:host ::ng-deep .p-table .p-table-thead > tr > th,
+:host ::ng-deep .p-table .p-table-tbody > tr > td {
+  padding: 10px;
+}
+.ticket-number,
+.ticket-price {
+  font-size: 13.28px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.tickets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.6px;
+}
+.tickets .ticket-image {
+  width: 31.67px;
+  height: 31.67px;
+  border-radius: 7.92px;
+  padding: 11.22px;
+  background-color: #f3f5f7;
+  position: relative;
+}
+.tickets .ticket-image svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tickets .ticket-info h5 {
+  font-size: 11.67px;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+.tickets .ticket-info .ticket-info__type {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.tickets .ticket-info .ticket-info__type {
+  font-size: 10px;
+  color: #000000;
+  opacity: 40%;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.ticket-icon {
+  margin-right: 22.33px;
+}
+::ng-deep .p-paginator-current .ng-star-inserted {
+  margin-left: auto !important;
+}
+::ng-deep
+  .p-element.p-inputwrapper.ng-untouched.ng-valid.ng-star-inserted.p-inputwrapper-filled.ng-dirty,
+::ng-deep
+  .p-element.p-inputwrapper.ng-valid.ng-star-inserted.p-inputwrapper-filled.ng-dirty.ng-touched {
+  position: absolute;
+  top: calc(100% - 31.5px);
+  right: 0;
+  transform: translateY(-50%);
+  width: 52.5px;
+  height: 31.5px;
+}
+@media (max-width: 400px) {
+  ::ng-deep .p-dropdown-trigger {
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+  }
+  ::ng-deep
+    .p-element.p-inputwrapper.ng-untouched.ng-valid.ng-star-inserted.p-inputwrapper-filled.ng-dirty,
+  ::ng-deep
+    .p-element.p-inputwrapper.ng-valid.ng-star-inserted.p-inputwrapper-filled.ng-dirty.ng-touched {
+    position: absolute;
+    top: calc(100% - 31.5px);
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 401px) and (max-width: 800px) {
+  .table-content {
+    width: 100%;
+  }
+  ::ng-deep p-table {
+    width: 100% !important;
+    overflow-y: auto;
+  }
+}
+::ng-deep .p-paginator-current.ng-star-inserted {
+  font-family: "Noto Sans Arabic", sans-serif !important;
+
+  margin-left: auto;
+  margin-right: 80px;
+  font-size: 10.5px;
+  font-weight: 400;
+  color: #000;
+}
+::ng-deep
+  .p-ripple.p-element.p-paginator-first.p-paginator-element.p-link.p-disabled.ng-star-inserted,
+::ng-deep
+  .p-ripple.p-element.p-paginator-last.p-paginator-element.p-link.ng-star-inserted,
+::ng-deep
+  .p-ripple.p-element.p-paginator-first.p-paginator-element.p-link.ng-star-inserted {
+  display: none;
+}
+::ng-deep
+  .p-ripple.p-element.p-paginator-page.p-paginator-element.p-link.ng-star-inserted:hover,
+::ng-deep
+  ::ng-deep
+  .p-ripple.p-element.p-paginator-page.p-paginator-element.p-link.p-highlight.ng-star-inserted:first-of-type,
+::ng-deep
+  .p-ripple.p-element.p-paginator-page.p-paginator-element.p-link.p-highlight.ng-star-inserted:hover {
+  background-color: #8a74f9;
+  border-radius: 3px;
+  color: #fff;
+  width: 27px;
+
+  font-size: 13.5px;
+}
+
+::ng-deep
+  .p-ripple.p-element.p-paginator-prev.p-paginator-element.p-link.p-disabled,
+::ng-deep .p-ripple.p-element.p-paginator-next.p-paginator-element.p-link {
+  transform: rotate(180deg);
+}
+::ng-deep .address {
+  padding: 10px 20px !important;
+  width: 148px;
+  height: 33px;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+}
+::ng-deep .p-tooltip .p-tooltip-text {
+  background-color: transparent;
+}

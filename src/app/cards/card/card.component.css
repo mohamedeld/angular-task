@@ -1,0 +1,174 @@
+.card {
+  width: 408px;
+  height: 264px;
+  padding: 20px;
+  background-color: slateblue;
+  border-radius: 12.47px;
+}
+@media (max-width: 400px) {
+  .card {
+    width: 100%;
+  }
+}
+@media (min-width: 401px) and(max-width: 800px) {
+  .card {
+    width: 100%;
+    margin: auto;
+  }
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.card-header h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+.card-header i {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 24px;
+  color: #fff;
+}
+.card-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: row-reverse;
+  width: 226.2px;
+  height: 42px;
+  border: 0.83px solid #fff;
+  border-radius: 8.32px;
+  margin: 10px auto 10px auto;
+
+  padding: 10px 0px;
+  background-color: #fff;
+}
+.card-link p {
+  color: #000;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+}
+.card-body .expire-date {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+  width: 100%;
+  flex-direction: column;
+  font-weight: 400;
+}
+.card-line {
+  border: 2.49px dashed #fff;
+  opacity: 40%;
+  margin-top: 10px;
+  position: relative;
+}
+
+.card-line::before {
+  content: "";
+  position: absolute;
+  background-color: #f3f5f7 !important;
+
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  left: -25px;
+  border-top-right-radius: 10px;
+  display: block;
+  border-bottom-right-radius: 10px;
+}
+
+.card-line::after {
+  content: "";
+  position: absolute;
+  background-color: #f3f5f7 !important;
+
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  display: block;
+  right: -25px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.custom-tooltip .ui-tooltip-text {
+  padding: 10px; /* Adjust padding */
+  background-color: #333; /* Custom background color */
+  color: #fff; /* Custom text color */
+  border-radius: 5px; /* Custom border-radius */
+  position: relative;
+}
+
+/* Create an arrow for the tooltip */
+.custom-tooltip .ui-tooltip-text::before {
+  content: "";
+  position: absolute;
+  top: 100%; /* Position at the bottom */
+  left: 50%;
+  margin-left: -5px; /* Half the width of the arrow */
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent; /* Arrow color */
+}
+.card-footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-footer .card-footer__info .discount {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.card-footer__share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.card-footer .card-footer__share .card-footer__percentage {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.card-footer .card-footer__share .card-footer__shared_btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 3px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 4px 6px;
+  border-radius: 4px;
+  width: 70px;
+  height: 24px;
+}
+.card-footer .card-footer__share .card-footer__shared_btn span {
+  font-size: 12px;
+  font-weight: 400;
+}
+::ng-deep .p-tooltip .p-tooltip-text {
+  padding: 10px;
+  width: 70px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #000 !important;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

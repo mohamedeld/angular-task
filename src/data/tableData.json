@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "firstName": "mohamed",
+    "lastName": "elsayed",
+    "image": "image url",
+    "ticket": {
+      "number": "C-101",
+      "price": 40,
+      "cinemaAddress": "adasdf",
+      "peopleCount": 1,
+      "paidCount": 1,
+      "title": "number 1 pdf",
+      "type": "pdf",
+      "lastPaid": "9 mon",
+      "image": "ticket image"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "mohamed",
+    "lastName": "elsayed",
+    "image": "image url",
+    "ticket": {
+      "number": "C-101",
+      "price": 40,
+      "cinemaAddress": "adasdf",
+      "peopleCount": 1,
+      "paidCount": 1,
+      "title": "number 1 pdf",
+      "type": "pdf",
+      "lastPaid": "9 mon",
+      "image": "ticket image"
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "mohamed",
+    "lastName": "elsayed",
+    "image": "image url",
+    "ticket": {
+      "number": "C-101",
+      "price": 40,
+      "cinemaAddress": "adasdf",
+      "peopleCount": 1,
+      "paidCount": 1,
+      "title": "number 1 pdf",
+      "type": "pdf",
+      "lastPaid": "9 mon",
+      "image": "ticket image"
+    }
+  }
+]
